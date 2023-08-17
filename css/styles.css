@@ -12,22 +12,22 @@ ul {
     list-style: none;
 }
 
-.logo-blue-letters {
-    color: #4D5AE5;
+.logo-black-letters {
+    color: #2e2f42;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
-    letter-spacing: -0.03em;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     line-height: 1.17;
 }
 
 .logo-title {
-    color: #2E2F42;
+    color: #4d5ae5;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
-    letter-spacing: -0.03em;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     line-height: 1.17;
 }
@@ -35,7 +35,7 @@ ul {
 .menu-navigation-item-link {
     color: #2E2F42;
     font-size: 16px;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.02em;
     font-weight: 500;
     line-height: 1.50;
 }
@@ -44,11 +44,17 @@ ul {
     color: #404BBF;
 }
 
+.menu-navigation-item-link:hover,
+.menu-navigation-item-link:focus {
+    color: #404bbf;
+}
+
+
 .menu-contacts-link {
     color: #434455;
     font-size: 16px;
     font-weight: 400;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.02em;
     line-height: 1.50;
 }
 
@@ -60,44 +66,44 @@ ul {
     color: #404BBF;
 }
 
+.menu-contacts-link:hover,
+.menu-contacts-link:focus {
+    color: #404bbf;
+}
+
 .effective-solutions-section {
     background-color: #2E2F42;
 }
 
 .effective-solutions-title {
     color: #FFF;
-    text-align: center;
     font-size: 56px;
     font-weight: 700;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.02em;
     line-height: 1.07;
 }
 
 .order-service-button {
-    border-radius: 4px;
     background-color:#4D5AE5;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     border-color: #4D5AE5;
     color: #FFF;
     font-size: 16px;
     font-weight: 500;
-    letter-spacing: -0.04em;
+    letter-spacing: 0.04em;
     line-height: 1.50;
     cursor: pointer;
 }
 
 .order-service-button:hover,
 .order-service-button:focus {
-    border-radius: 4px;
-    background: var(--ocean, #404BBF);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    background-color: #404BBF;
 }
 
 .success-title {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.02em;
     line-height: 1.20;
 }
 
@@ -105,7 +111,7 @@ ul {
     color: #434455;
     font-size: 16px;
     font-weight: 400;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.02em;
     line-height: 1.50;
 }
 
@@ -114,7 +120,7 @@ ul {
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.02em;
     text-transform: capitalize;
     line-height: 1.11;
 }
@@ -131,7 +137,7 @@ ul {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.02em;
     line-height: 1.20;
 }
 
@@ -139,7 +145,7 @@ ul {
     color: #434455;
     font-size: 16px;
     font-weight: 400;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.02em;
     line-height: 1.50;
 }
 
@@ -148,7 +154,7 @@ ul {
     text-align: center;
     font-size: 36px;
     font-weight: 700;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.02em;
     line-height: 1.11;
     text-transform: capitalize;
 }
@@ -158,14 +164,14 @@ ul {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.20;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.02em;
 }
 
 .our-portfolio-item-direction {
     color: #434455;
     font-size: 16px;
     font-weight: 400;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.02em;
     line-height: 1.50;
 }
 
@@ -173,20 +179,20 @@ footer {
     background-color: #2E2F42;
 }
 
-.logo-title-footer {
-    color: #F4F4FD;
+.logo-white-letters {
+    color: #f4f4fd;
     font-family: "Raleway", sans-serif;
     font-size: 18px;
     font-weight: 700;
-    letter-spacing: -0.03em;
-    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
+    line-height: 1.17;
 }
 
 .footer-text {
     color: #F4F4FD;
     font-size: 16px;
     font-weight: 400;
-    letter-spacing: -0.02em;
+    letter-spacing: 0.02em;
     line-height: 1.50;
 }
